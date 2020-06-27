@@ -1,0 +1,362 @@
+*{
+ scroll-behavior: smooth;    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+*{margin:0;
+padding:0;
+
+}
+body{font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+    color: #83A7A5;
+ 
+}
+
+button:focus {
+  
+    outline: none;
+  
+}
+.mybg{
+   background: #f6f9f9; 
+   padding: 12px 0px;
+   border-bottom: 1px solid #2d395026;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(45, 57, 80, 0.68);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 11px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(21, 164, 250);
+}
+.banner{
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .row{
+
+    min-height: 700px;
+    align-items: center;
+}
+.banner h1{
+
+    font-size: 120px;
+    font-weight: 500;
+    color: #ffffff;
+       transform: translateX(0px);
+  animation-name:Mover;
+
+      animation-duration: 3s;
+    animation-direction:alternate;
+}
+@keyframes Mover{
+
+  
+  0%{
+        transform: translateX(-1220px);
+        -webkit- transform: translateX(-1220px);
+        -moz- transform: translateX(-1220px);
+
+    }
+    
+
+    
+
+
+
+}
+.banner span{
+
+    height: 2px;
+    width: 75%;
+    background: #15a4fa;
+    display: block;
+  margin: auto;
+}
+.banner p{
+
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 26px;
+  transform: translateX(0px);
+  animation-name:Mover2;
+
+      animation-duration: 3s;
+    animation-direction:alternate;
+}
+@keyframes Mover2{
+
+  
+  0%{
+        transform: translateX(1220px);
+        -webkit- transform: translateX(1220px);
+        -moz- transform: translateX(1220px);
+
+    }
+   } 
+.mybtn{
+
+    background: #fff0;
+    border-color: #15a4fa;
+    padding: 5px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.mybtn:hover{
+
+    background: #15a4fa;
+    border-color: #15a4fa;
+    padding: 5px 20px;
+    color: #fff;
+}
+.banner i{
+
+    transform: translateY(-93px);
+    -webkit- transform: translateY(-93px);
+    -moz- transform: translateY(-93px);
+    animation-name:Move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Move{
+
+    0% {transform: translateY(-93px);
+    -webkit- transform: translateY(-93px);
+    -moz- transform: translateY(-93px);}
+    100%{
+        transform: translateY(-115px);
+        -webkit- transform: translateY(-115px);
+        -moz- transform: translateY(-115px);
+
+    }
+
+
+
+
+}
+
+.simple{
+background-color: #f6f9f9;
+padding: 75px 0px;
+}
+.simple h1{
+
+    font-size: 35px;
+    color: #2d3950;
+    margin-bottom: 19px;
+    font-weight: 600;
+   }
+.simple p{
+
+    color: #999999;
+    font-size: 16px;
+    line-height: 1.8;
+     font-weight: 500;
+    }
+
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgb(21, 164, 250);
+}  
+
+
+
+
+.simplesec{
+
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.simplesec span{
+
+    font-size: 56px;
+    color: #fff;
+    background: #15a4fa;
+    width: 90px;
+    height: 92px;
+    margin: auto;
+    display: block;
+    line-height: 100px;
+}
+.simplesec i{
+
+
+}
+.hov{
+      margin-top: 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(21, 164, 250);
+}
+.simplesec h1{
+
+    font-size: 22px;
+    color: #2d3950;
+    font-weight: 600;
+    padding: 25px 0px;
+     
+}
+
+.simplesec p{
+
+    font-size: 15px;
+    color: #999999;
+    
+}
+@keyframes text {
+  to {
+    transform: translateX(0);
+  }
+}
+.gallery{
+
+    background: #f6f9f9;
+    padding: 65px 0px;
+    text-align: center;
+}
+.gallery h1{
+
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 600;
+}
+.gallery p{
+
+    color: #909090;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ming{
+
+    position: relative;
+    margin-top: 20px;
+}
+
+.ming a{
+
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 8px;
+}
+.ming img{
+  min-width: 100%;
+  min-height: 100%;
+}
+.ming i{
+  color: #fff;
+}
+
+.ming ul{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition-duration: 0.8s;
+}
+.ming:hover ul{
+ left: 50%;
+    transform: translate(-50%,-50%);
+   opacity: 1;
+}
+.ming::before{
+content: "";
+  position: absolute;
+    top: 0;
+    left: 0;
+    background: #15a4faa6;
+    width: 0%;
+    height:  0%;
+    transition-duration: 0.5s;
+}
+.ming:hover::before{
+    width: 100%;
+    height:  100%;
+}
+.frsec{
+  background: url(../img/banner2.png);
+  padding: 30px;
+
+}
+.frsec h1{
+
+    color: #fff;
+    font-size: 44px;
+    font-weight: 600;
+}
+.frsec p{
+
+    color: #696d73;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 23px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 26px 23px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #632f2f00;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: #fff0;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+label {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 6px;
+}
+footer{
+
+    padding: 23px 0px;
+    background: #f6f9f9;
+    align-items: center;
+}
+footer ul{
+
+}
+footer li{
+
+}
+footer a{
+
+    font-size: 20px;
+    padding-left: 10px;
+}
+footer i{
+
+}
+footer p{
+
+    color: #819494;
+    font-size: 17px;
+    font-weight: 700;
+}
