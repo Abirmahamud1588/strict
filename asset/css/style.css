@@ -59,9 +59,9 @@ button:focus {
 
   
   0%{
-        transform: translateX(-1220px);
-        -webkit- transform: translateX(-1220px);
-        -moz- transform: translateX(-1220px);
+        transform: translateX(-1620px);
+        -webkit- transform: translateX(-1620px);
+        -moz- transform: translateX(-1620px);
 
     }
     
@@ -95,9 +95,9 @@ button:focus {
 
   
   0%{
-        transform: translateX(1220px);
-        -webkit- transform: translateX(1220px);
-        -moz- transform: translateX(1220px);
+        transform: translateX(1620px);
+        -webkit- transform: translateX(1620px);
+        -moz- transform: translateX(1620px);
 
     }
    } 
